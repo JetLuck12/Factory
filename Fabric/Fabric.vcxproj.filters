@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Rectangle">
+      <UniqueIdentifier>{195818c6-9754-4207-bf53-9ddd7774f342}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Line">
+      <UniqueIdentifier>{c0bc4fd6-846d-4ca2-ba54-37ca2d63941f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class">
+      <UniqueIdentifier>{718f5551-41e8-4af9-aa8b-b8b0696ae499}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parser">
+      <UniqueIdentifier>{b04efd94-c8f8-4962-a4bc-e824e5a99b8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Figure">
+      <UniqueIdentifier>{a140d7f3-adad-414c-b384-8637c6302139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Point">
+      <UniqueIdentifier>{ca654540-9347-4620-bd5d-6a6188edd003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Circle">
+      <UniqueIdentifier>{ee012bad-e44e-48ea-891e-e60c15858aa5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dynamic_array">
+      <UniqueIdentifier>{8c27b39a-2780-4063-bf2b-a459535985ea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Figure.h">
+      <Filter>Figure</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect.h">
+      <Filter>Rectangle</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Point</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>Line</Filter>
+    </ClInclude>
+    <ClInclude Include="Class.h">
+      <Filter>Class</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser.h">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="Dyn_arr.h">
+      <Filter>Dynamic_array</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Figure.c">
+      <Filter>Figure</Filter>
+    </ClCompile>
+    <ClCompile Include="Rect.c">
+      <Filter>Rectangle</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.c">
+      <Filter>Point</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.c">
+      <Filter>Line</Filter>
+    </ClCompile>
+    <ClCompile Include="Class.c">
+      <Filter>Class</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c" />
+    <ClCompile Include="Parser.c">
+      <Filter>Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.c">
+      <Filter>Circle</Filter>
+    </ClCompile>
+    <ClCompile Include="Dyn_arr.c">
+      <Filter>Dynamic_array</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

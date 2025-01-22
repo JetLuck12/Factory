@@ -1,0 +1,14 @@
+point 1 2
+point 01 82
+point -1 82
+point -1 25
+rect 1 2 3 4
+rect 1 2 3 4 5
+rect 1 2 3
+line 10 10 20
+line 10 10 20 20
+line 10 10
+circle 10 10 5
+circle 10 10
+circle 10 10 5 5
+circle
